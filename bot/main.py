@@ -1,5 +1,5 @@
 from discord.ext import commands
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import aiosqlite
 import discord
 import logging
@@ -15,10 +15,10 @@ class MyBot(commands.Bot):
         A coroutine to be called to setup the bot, by default this is blank.
         """
         
-        self.connection = await aiosqlite.connect('users.db')
-        cursor = await self.connection.cursor()
-        await self.connection.commit()
-        await self.connection.close()
+        # self.connection = await aiosqlite.connect('users.db')
+        # cursor = await self.connection.cursor()
+        # await self.connection.commit()
+        # await self.connection.close()
 
         loaded_cogs: list[str] = []
         for filename in os.listdir('./cogs'):
