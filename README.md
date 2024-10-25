@@ -1,5 +1,6 @@
 # Brief overview
-A discord bot which makes use of slash commands and Google's Gemini AI
+- A project in which I have experimented with discord's slash commands and Google's Gemini AI
+- The product is a refined discord bot that makes good use of both of these features
 
 # Details
 
