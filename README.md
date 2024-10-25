@@ -1,5 +1,5 @@
 # Brief overview
-A basic discord bot which makes use of slash commands and Google's Gemini AI
+A discord bot which makes use of slash commands and Google's Gemini AI
 
 # Details
 
